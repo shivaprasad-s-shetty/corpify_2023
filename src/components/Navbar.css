@@ -1,0 +1,35 @@
+/* Inside your Navbar.css file */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000; /* Change the background color to black */
+    color: white;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .sliding-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 25vw;
+    background-color: rgba(51, 51, 51, 0.9); /* Change the alpha value for opacity */
+    color: white;
+    padding: 10px;
+    border: 1px solid #555;
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  /* ... (rest of your styles) */
+  
